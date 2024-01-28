@@ -1,0 +1,41 @@
+.phoneContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 5rem;
+}
+
+.userPhone{
+  border: black 40px solid;
+  width: 20%;
+  height: 30rem;
+  padding: 1rem;
+  border-radius: 10px;
+  background-color: #FFFFFF;
+  font-family: monospace, monospace;
+  font-size: 1rem;
+}
+
+.activity{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.activityContainer{
+  margin-top: 2rem;
+}
+
+.alert{
+  color: red;
+}
+
+.completed{
+  background-color: green;
+}
+
+.friendComplete{
+  background-color: yellow !important;
+}
